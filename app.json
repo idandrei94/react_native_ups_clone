@@ -24,10 +24,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.daniorga.upsclone",
+      "config": {
+        "googleMaps": {
+          "apiKey": "android_api_key_here"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "15a83e31-575d-4223-a89f-fd0eb7e28972"
+      }
     }
   }
 }
